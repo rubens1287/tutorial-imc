@@ -33,6 +33,8 @@ public class Main {
             return "Você esta em boa forma, pode ir pro MC Donalds";
         }else if(imc >= 30 && imc <= 34 ){
             return "Você esta gordinho, vá para academia o mais rapido possivel!";
+        }else if(imc > 34){
+            return "Você esta muito gordinho, procure um médico!";
         }
 
         return "Erro ao tentar retorna o tipo de imc!";
